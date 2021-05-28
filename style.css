@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-family: "Baloo Da 2", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.section-1 {
+    width: 100%;
+    height: 65rem;
+    background: linear-gradient(to top, rgba(38, 38, 38, .7), rgba(38, 3
+    , 0, .6)), url(images/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    height: 8rem;
+    border-bottom: .1rem solid #aaa;
+    display: flex;
+    justify-content: center;
+ }
+
+.navbar {
+    width: 120rem;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+}
+
+.p-1 {
+    font-size: 4.5rem;
+    margin-right: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.p-2 {
+    font-size: 4.5rem;
+    color: #bbb;
+    position: absolute;
+    top: .4rem;
+    left: .5rem;
+}
