@@ -37,7 +37,7 @@ html {
     align-items: center;
 }
 
-.navbar-logo {
+.logo {
     font-size: 3.5rem;
     font-style: italic;
     font-weight: 800;
@@ -92,6 +92,9 @@ html {
     flex-wrap: wrap;
     opacity: 0;
     visibility: hidden;
+}
+.front-page {
+    display:  none;
 }
 
 
