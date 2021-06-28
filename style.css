@@ -573,7 +573,21 @@ html {
 .content-left-images img {
     width: 18rem;
     border-radius: 50%;
+    border: 1.5rem solid #ccc;
+    margin-right: 5rem;
+}
 
+.signup-page-content-left h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.1;
+}
+
+.signup-page-content-right {
+    width: 40%;
+    padding: 3rem 0 3rem 3rem;
+    color: #555;
 }
 
 
