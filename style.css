@@ -43,6 +43,7 @@ html {
     font-weight: 800;
     color: #fff;
     position: relative;
+    cursor: pointer;
 }
 
 .p-1 {
