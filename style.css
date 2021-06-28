@@ -590,6 +590,15 @@ html {
     color: #555;
 }
 
+.signup-page-content-right h3 {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.signup-page-content-right h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
 
 
 
