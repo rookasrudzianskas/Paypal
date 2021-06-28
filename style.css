@@ -94,7 +94,6 @@ html {
     visibility: hidden;
 }
 .front-page {
-    display:  none;
 }
 
 
@@ -523,6 +522,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
 }
 
 .signup-page-top {
@@ -599,6 +599,25 @@ html {
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+.input-group {
+    display: flex;
+    margin: 1.5rem;
+}
+.option h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.option p {
+    font-size: 1.5rem;
+}
+
+.input-group input[type="radio"] {
+    width: 30%;
+    height: 2rem;
+    margin: .5rem 1rem 0 -1.5rem;
+}
+
 
 
 
